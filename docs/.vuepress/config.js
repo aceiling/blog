@@ -15,7 +15,5 @@ module.exports = {
 
   head,
   plugins,
-  themeConfig:{
-    sidebar:'structuring'
-  },
+  themeConfig,
 }

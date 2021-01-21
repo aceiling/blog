@@ -9,17 +9,21 @@ tagline: Ceiling
 
 features: # 可选的
   - title: .Net 5
-    details: Asp.Net Core | Abp vNext
-    link: /web/ # 可选
+    details: Asp.Net Core | Abp vNext | Blazor
+    link: /net5/ # 可选
     imgUrl: /img/web.png # 可选
   - title: MicroServices
     details: Identity Server 4 | MiddleWare | DB
-    link: /ui/
+    link: /Microservice/
     imgUrl: /img/ui.png
-  - title: Notion
-    details: Daily | Ceilings
-    link: /technology/
+  - title: DevOps
+    details: Docker | K8s | Scrum
+    link: /devops/
     imgUrl: /img/other.png
+  # - title: DesignPatterns
+  #   details: Daily | Ceilings
+  #   link: /designpatterns/
+  #   imgUrl: /img/other.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed

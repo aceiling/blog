@@ -3,7 +3,7 @@ module.exports = [
   { text: 'Home', link: '/' },
   {
     text: '.Net 5',
-    link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+    link: '/net5/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
       // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
       {
@@ -38,7 +38,7 @@ module.exports = [
   },
   {
     text: 'MicroServices',
-    link: '/ui/',
+    link: '/microservice/',
     items: [
       { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
       { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
@@ -46,7 +46,7 @@ module.exports = [
   },
   {
     text: 'DevOps',
-    link: '/technology/',
+    link: '/devops/',
     items: [
       { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
       { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
@@ -56,7 +56,7 @@ module.exports = [
   },
   {
     text: 'Design Patterns',
-    link: '/more/',
+    link: '/designpatterns/',
     items: [
       { text: '学习', link: '/pages/f2a556/' },
       { text: '面试', link: '/pages/aea6571b7a8bae86/' },
@@ -65,9 +65,19 @@ module.exports = [
       { text: '友情链接', link: '/friends/' },
     ],
   },
-  { text: 'About', link: '/about/' },
   {
-    text: 'Quote',
+    text: 'Work',
+    link: '/work/',
+    items: [
+      { text: '学习', link: '/pages/f2a556/' },
+      { text: '面试', link: '/pages/aea6571b7a8bae86/' },
+      { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
+      { text: '实用技巧', link: '/pages/baaa02/' },
+      { text: '友情链接', link: '/friends/' },
+    ],
+  },
+  {
+    text: 'Other',
     link: '/pages/beb6c0bd8a66cea6/',
     items: [
       { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
@@ -79,16 +89,10 @@ module.exports = [
     text: 'Archives',
     link: '/archives/',
     items: [
-      { text: '分类', link: '/categories/' },
-      { text: '标签', link: '/tags/' },
-      { text: '归档', link: '/archives/' },
+      { text: 'Categories', link: '/categories/' },
+      { text: 'Tags', link: '/tags/' },
+      { text: 'Archives', link: '/archives/' },
     ],
   },
-  {
-    text: 'Other',
-    link: '/pages/040f05/',
-    items: [
-      { text: 'Notion', link: '/pages/040f05/' }
-    ],
-  }
+  { text: 'About', link: '/about/' },
 ]
